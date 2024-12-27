@@ -9,11 +9,14 @@
 <body>
     <header>
         <h1>Tuyển Người Giao Lưu Cầu Lông</h1>
+        <nav>
+            <button onclick="filterPosts('all')">All Posts</button>
+            <button onclick="filterPosts('san-tim-nguoi')">Sân Tìm Người</button>
+            <button onclick="filterPosts('nguoi-tim-san')">Người Tìm Sân</button>
+            <button onclick="window.location.href='create_post.html?type=san-tim-nguoi'">Tạo Post Sân Tìm Người</button>
+            <button onclick="window.location.href='create_post.html?type=nguoi-tim-san'">Tạo Post Người Tìm Sân</button>
+        </nav>
     </header>
-    <nav>
-        <button onclick="window.location.href='create_post.html?type=san-tim-nguoi'">Sân Tìm Người</button>
-        <button onclick="window.location.href='create_post.html?type=nguoi-tim-san'">Người Tìm Sân</button>
-    </nav>
     <main id="post-list">
         <!-- Các bài post sẽ được hiển thị ở đây -->
     </main>
