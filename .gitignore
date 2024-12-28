@@ -32,3 +32,4 @@ bld/
 
 # Others
 *.log
+/.gitignore
