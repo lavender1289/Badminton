@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <nav class="sidebar">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='create_court_post.html'">Create Court Post</button>
+        <button onclick="window.location.href='create_player_post.html'">Create Player Post</button>
+        <button onclick="window.location.href='view_posts.html'">View Posts</button>
+        <button onclick="window.location.href='register.html'">Register</button>
+        <button onclick="window.location.href='login.html'">Login</button>
+    </nav>
+    <main>
+        <form id="register-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <script src="scripts/register.js"></script>
+</body>
+</html>
